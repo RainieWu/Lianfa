@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+#main #content{
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:20px;
+	font-family:Microsoft YaHei;
+}
+
+#content h4{
+	text-align:center;
+	letter-spacing:5px;
+}
+
+#content font{
+	float:right;
+	font-size:12px;
+	margin-bottom:10px;
+}
+
+#content p{
+	clear:both;
+	font-size:14px;
+	line-height:28px;
+	margin-top:10px;
+}
+
+#content span{
+	color:#C00000;
+}
+
+#content img{
+	width:900px;
+	margin-left:20px;
+	margin-bottom:10px;
+}

@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+#main #content{
+	padding-top:1px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+#content h4{
+	line-height:28px;
+	color:#FFF;
+	background:#C00000;
+	font-family:Microsoft YaHei;
+	width:64px;
+	padding-left:10px;
+	padding-right:10px;
+	margin-top:20px;
+}
+
+#content p{
+	font-size:14px;
+	text-indent:28px;
+	line-height:28px;
+	font-family:Microsoft YaHei;
+}
+
+#content img{
+	width:900px;
+	padding-left:20px;
+	margin-top:10px;
+}
+
+#content span{
+	display:block;
+	font-size:14px;
+	font-family:Microsoft YaHei;
+	text-align:center;
+	margin-bottom:10px;
+}

@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+#page1,#page2,#page3{
+	height:870px;
+}
+
+#page2,#page3{
+	display:none;
+}
+
+.area{
+	width:320px;
+	height:240px;
+	float:left;
+}
+
+.imgs{
+	width:240px;
+	height:180px;
+	text-align:center;
+	float:left;
+	position:relative;
+	margin-left:40px;
+	margin-right:40px;
+	margin-top:30px;
+	margin-bottom:30px;
+	cursor:pointer;
+}
+
+.imgs .stone{
+	width:240px;
+	height:180px;
+}
+
+.imgs .message{
+	width:240px;
+	height:30px;
+	background-color:#000;
+	opacity:0.3;
+	position:relative;
+	bottom:30px;
+}
+
+.imgs .up{
+	font-family:Microsoft YaHei;
+	font-size:16px;
+	position:relative;
+	bottom:57px;
+}
+
+.imgs .down{
+	font-family:Microsoft YaHei;
+	font-size:16px;
+	position:relative;
+	bottom:50px;
+	opacity:0;
+	display:none;
+}
+
+#number{
+	clear:both;
+	text-align:center;
+}
+
+#number span{
+	display:inline;
+	cursor:pointer;
+	font-size:12px;
+	padding:2px 6px;
+	font-family:Microsoft YaHei;
+}
+
+#number .active{
+	font-weight:bold;
+	color:#C00000;
+}
